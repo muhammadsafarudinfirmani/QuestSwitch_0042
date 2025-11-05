@@ -88,6 +88,8 @@ public class TugasSwitch {
                     System.out.println("pilih mata kuliah lagi");
                     break;
             }
+        }else {
+            System.out.println("\nmahasiswa tidak memenuhi syarat");
         }
         
     }
