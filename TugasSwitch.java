@@ -38,7 +38,13 @@ public class TugasSwitch {
         System.out.println("ipk" +ipk);
         System.out.println("prediket" + predikat);
 
-        
+        if (predikat.equalsIgnoreCase("A (sangat baik)") || predikat.equalsIgnoreCase("AB (Baik sekali)") ) {
+            System.out.println("1.struktur data");
+            System.out.println("2.Pemrogaman berorientasi objek ");
+            System.out.println("3.Basis data");
+            System.out.println("4.Algoritma pemrogaman");
+            System.out.println("5.Rekayasa perangkat lunak");
+        }
         
     }
 }
