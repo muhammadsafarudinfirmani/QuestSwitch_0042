@@ -19,18 +19,26 @@ public class TugasSwitch {
         rpLunak= ns.nextDouble();
 
         nRata_Rata = (struktur_data + pbObjek + Basis_Data + algoritma_pemrogaman + rpLunak ) / 5;
-        System.out.println("nilai rata-rata:" + nRata_Rata);
+        double ipk =(nRata_Rata/ 100)*4;
+        String predikat;
 
-        int nilai = (int)nRata_Rata;
-
-        switch (nilai) {
-            case value:
-                
-                break;
-        
-            default:
-                break;
+        if (ipk >3.75) {
+            predikat = ("A (sangat baik)");
+        }else if (ipk >=3.50 && ipk <= 3.74) {
+            predikat = ("AB (Baik sekali)");
+        }else if (ipk >= 3.00 && ipk <= 3.49) {
+            predikat = ("B (baik)");
+        }else if (ipk >= 2.50 && ipk <= 2.99) {
+            predikat = ("BC (cukup)");
+        }else {
+            predikat = ("C (kurang)");
         }
+
+        System.out.println("\nhasil nilai\n");
+        System.out.println("ipk" +ipk);
+        System.out.println("prediket" + predikat);
+
+        
         
     }
 }
