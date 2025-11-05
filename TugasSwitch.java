@@ -20,5 +20,17 @@ public class TugasSwitch {
 
         nRata_Rata = (struktur_data + pbObjek + Basis_Data + algoritma_pemrogaman + rpLunak ) / 5;
         System.out.println("nilai rata-rata:" + nRata_Rata);
+
+        int nilai = (int)nRata_Rata;
+
+        switch (nilai) {
+            case value:
+                
+                break;
+        
+            default:
+                break;
+        }
+        
     }
 }
