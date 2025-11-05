@@ -1,6 +1,6 @@
 public class TugasSwitch {
 
     public static void main(String[] args) {
-        double Struktur_data, pbObjek, Basis_data, algoritma_pemrogaman, rpLunak;
+        double struktur_data, pbObjek, Basis_Data, algoritma_pemrogaman, rpLunak;
     }
 }
