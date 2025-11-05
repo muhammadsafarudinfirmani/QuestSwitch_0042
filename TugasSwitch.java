@@ -44,6 +44,34 @@ public class TugasSwitch {
             System.out.println("3.Basis data");
             System.out.println("4.Algoritma pemrogaman");
             System.out.println("5.Rekayasa perangkat lunak");
+
+            System.out.println("\npilih matah kuliah");
+            int pilihan = ns.nextInt();
+
+            switch (pilihan) {
+                case 1:
+                if ( struktur_data >= 75) {
+                    System.out.println("Selamat mahasiswa diterima menjadi dosen");
+                }else{
+                    System.out.println("maaf anda belom lolos");
+                }
+                    break;
+                case 2:    
+                
+                    break;
+                case 3:
+
+                    break;
+                case 4:
+
+                    break;
+                case 5:
+
+                    break;
+                default:
+
+                    break;
+            }
         }
         
     }
