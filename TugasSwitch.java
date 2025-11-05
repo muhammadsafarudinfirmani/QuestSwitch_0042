@@ -39,6 +39,7 @@ public class TugasSwitch {
         System.out.println("prediket" + predikat);
 
         if (predikat.equalsIgnoreCase("A (sangat baik)") || predikat.equalsIgnoreCase("AB (Baik sekali)") ) {
+            System.out.println("\n=====MATA KULIAH=====");
             System.out.println("1.struktur data");
             System.out.println("2.Pemrogaman berorientasi objek ");
             System.out.println("3.Basis data");
