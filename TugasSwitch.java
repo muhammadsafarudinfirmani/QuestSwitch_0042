@@ -71,13 +71,21 @@ public class TugasSwitch {
                 }
                     break;
                 case 4:
-
+                    if ( struktur_data >= 75) {
+                    System.out.println("Selamat mahasiswa diterima menjadi asistendosen");
+                }else{
+                    System.out.println("maaf anda belom lolos");
+                }
                     break;
                 case 5:
-
+                    if ( struktur_data >= 75) {
+                    System.out.println("Selamat mahasiswa diterima menjadi asisten dosen");
+                }else{
+                    System.out.println("maaf anda belom lolos");
+                }
                     break;
                 default:
-
+                    System.out.println("pilih mata kuliah lagi");
                     break;
             }
         }
