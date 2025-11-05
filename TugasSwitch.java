@@ -51,20 +51,24 @@ public class TugasSwitch {
             switch (pilihan) {
                 case 1:
                 if ( struktur_data >= 75) {
-                    System.out.println("Selamat mahasiswa diterima menjadi dosen");
+                    System.out.println("Selamat mahasiswa diterima menjadi asisten  dosen");
                 }else{
                     System.out.println("maaf anda belom lolos");
                 }
                     break;
                 case 2:    
                 if ( pbObjek >= 75) {
-                    System.out.println("Selamat mahasiswa diterima menjadi dosen");
+                    System.out.println("Selamat mahasiswa diterima menjadi asisten dosen");
                 }else{
                     System.out.println("maaf anda belom lolos");
                 }
                     break;
                 case 3:
-
+                if ( Basis_Data >= 75) {
+                    System.out.println("Selamat mahasiswa diterima menjadi asisten dosen");
+                }else{
+                    System.out.println("maaf anda belom lolos");
+                }
                     break;
                 case 4:
 
