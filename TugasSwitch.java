@@ -57,7 +57,11 @@ public class TugasSwitch {
                 }
                     break;
                 case 2:    
-                
+                if ( pbObjek >= 75) {
+                    System.out.println("Selamat mahasiswa diterima menjadi dosen");
+                }else{
+                    System.out.println("maaf anda belom lolos");
+                }
                     break;
                 case 3:
 
